@@ -1,20 +1,66 @@
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .pageHeader {
-    margin: auto 0;
-    border: 2px solid #333;
-    text-align: center;
+	background: rgb(195, 244, 247);
+	margin: auto 0;
+	border: 2px solid #333;
+	border-radius: 5px;
+	padding: 5px;
+	text-align: center;
+	font-size: 3em;
 }
 
 .list {
 	display: flex;
 	flex-direction: row;
 	flex-flow: wrap;
-    justify-content: center;
-    margin: 10px;
+	justify-content: center;
+	margin: 10px;
 }
 
 .shop {
-    flex-basis: 33%;
-    /* margin: auto; */
-    /* border: 2px dotted black; */ /* this overrides flex settings for some reason */
-    /* padding: 2px; */
+	box-sizing: border-box;
+	flex-basis: 33.33%;
+	text-align: center;
+	background: rgb(252, 246, 227);
+	/* margin: 5px; */
+	border: 2px dotted #333; /* this overrides flex settings for some reason */
+	border-radius: 7px;
+	padding: 10px;
+}
+
+h1 {
+	font-size: 2em;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+	font-size: .75em;
+}
+
+a {
+	color: salmon;
+}
+
+/* for later UI/UX */
+/* unvisited link */
+a:link {
+	/* color:  */
+}
+
+/* visited link */
+a:visited {
+	color: ;
+}
+
+/* mouse over link */
+a:hover {
+	color: hotpink;
+}
+
+/* selected link */
+a:active {
+	color: blue;
 }
